@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 {% set name = "cluster_tools" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/constantinpape/cluster_tools/archive/{{ version }}.tar.gz
-  sha256: cc54e7f02c16237024a9cbf11b57807da425d2d8550869d634acb7334861e6fd
+  sha256: bc0135fd70990357339048a3ec1693077dfe059dd4fec619d99d7537461f6285
 
 build:
   number: 0
