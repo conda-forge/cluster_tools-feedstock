@@ -1,11 +1,11 @@
-About cluster_tools
-===================
+About cluster_tools-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cluster_tools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/constantinpape/cluster_tools
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cluster_tools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Distributed segmentation for bio-image-analysis.
 
