@@ -10,21 +10,23 @@ source:
   sha256: 163fae730ad06bf49084f4a056d96f4d929d1f24d52644ea172cfb0918deeeaa
 
 build:
-  number: 0
+  number: 1
   script: pip install . --no-deps --ignore-installed --no-cache-dir -vvv
   noarch: python
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - python-elf
     - pybdv
     - luigi
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - cluster_tools
     - cluster_tools.workflows
